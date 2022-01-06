@@ -36,3 +36,8 @@ textarea {
 .sidebar h2 {
     margin-top: 5px;
 }
+
+#id_title, #id_content {
+    width: 50%;
+    padding: 10px;
+}
