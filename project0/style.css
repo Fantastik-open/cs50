@@ -1,0 +1,142 @@
+html {
+  background-color: #202124;
+}
+
+body, input, button, a {
+  font-size: 14px;
+  font-family: Roboto,arial,sans-serif;
+  color: #bdc1c6;
+  text-decoration: none;
+}
+
+button {
+  text-align: center;
+  cursor: pointer;
+  font-family: Roboto,arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+}
+
+.switch {
+  position: absolute;
+  padding: 5px;
+  /*border: 2px solid #0070fa;*/
+}
+
+#advanced {
+  position: absolute;
+  top: 5px;
+  padding: 5px;
+  /*border: 2px solid #0070fa;*/
+}
+
+#image {
+  position: absolute;
+  top: 5px;
+  padding: 5px;
+  /*border: 2px solid #0070fa;*/
+}
+
+#google {
+  position: absolute;
+  top: 5px;
+  padding: 5px;
+  /*border: 2px solid #0070fa;*/
+}
+
+.logo {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -140%);
+  max-width: 25%;
+  height: auto;
+}
+
+.searchbar {
+  /* searchbar centering */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* searchbar styling */
+  width: 46%;
+  height: 46px;
+  background-color: #202124;
+  border: 1px solid #5f6368;
+  border-radius: 46px;
+  /* searchbar input styling */
+  padding: 0px 25px 0px 25px;
+  font-size: 18px;
+}
+
+.submitbtn{
+  /* submit button centering */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 75%);
+}
+
+.searchbtn {
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  color: #e8eaed;
+}
+
+.advsearchbar {
+  /* searchbar styling */
+  width: 46%;
+  height: 29px;
+  background-color: #202124;
+  border: 1px solid #5f6368;
+  /* searchbar input styling */
+  padding: 0px 5px 0px 5px;
+  font-size: 18px;
+}
+
+.searchtable {
+  width: 100%;
+  margin: 50px;
+}
+
+.searchtable td {
+  padding: 5px;
+}
+
+.label {
+  width: 200px;
+}
+
+.logosmall {
+  max-width: 100px;
+  margin: 15px;
+}
+
+.advsearchtxt {
+  color: #f28b82;
+  padding: 0px 25px 0px 25px;
+}
+
+.advsearchbtn {
+  position: absolute;
+  left: 50%;
+  background-color: #8ab4f8;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  color: #202124;
+  font-family: Roboto,arial,sans-serif;
+  font-size: 12px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 30px;
+  min-width: 54px;
+}
