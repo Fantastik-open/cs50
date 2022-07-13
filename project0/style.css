@@ -74,6 +74,18 @@ button {
   /* searchbar input styling */
   padding: 0px 25px 0px 25px;
   font-size: 18px;
+  vertical-align: text-bottom;
+}
+
+.searchbar input {
+  /* searchbar input styling */
+  width: 95%;
+  height: 97%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: #bdc1c6;
+  background-color: #202124;
 }
 
 .submitbtn{
@@ -87,20 +99,30 @@ button {
 
 .searchbtn {
   background-color: #303134;
-  border: 1px solid #303134;
-  border-radius: 4px;
-  color: #e8eaed;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 .advsearchbar {
-  /* searchbar styling */
+  /* searchbar styling */  
   width: 46%;
   height: 29px;
   background-color: #202124;
   border: 1px solid #5f6368;
-  /* searchbar input styling */
+  /* searchbar input styling */ 
   padding: 0px 5px 0px 5px;
-  font-size: 18px;
+  font-size: 13px;
 }
 
 .searchtable {
@@ -134,9 +156,9 @@ button {
   border-radius: 4px;
   color: #202124;
   font-family: Roboto,arial,sans-serif;
-  font-size: 12px;
+  font-size: 100%;
   padding: 0 16px;
   line-height: 27px;
-  height: 30px;
+  min-height: 41px;
   min-width: 54px;
 }
